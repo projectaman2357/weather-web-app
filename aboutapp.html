@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About App</title>
+    <style>
+        body{
+          background-color: antiquewhite;  
+        }
+        .pdf {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+    .pdf,
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+   h1,
+    h3 {
+        text-align: center;
+    }
+
+    h1 {
+        color: green;
+    }
+    </style>
+</head>
+<body>
+    <h3>Embedding the PDF file Using Iframe Tag</h3>
+    <iframe class="pdf" 
+            src="document/StructureDiagram.pdf" width="700" height="1000">
+    </iframe>
+</body>
+</html>
